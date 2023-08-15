@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carrossel {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.botoes {
+    margin-top: 10px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+.bot {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
